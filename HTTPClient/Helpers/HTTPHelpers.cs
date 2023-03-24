@@ -33,7 +33,7 @@ namespace HTTPClient.Helpers
         }
 
         /// <summary>
-        /// 
+        /// Method in getting token
         /// </summary>
         private async Task<string> GetToken()
         {
@@ -54,7 +54,7 @@ namespace HTTPClient.Helpers
         }
 
         /// <summary>
-        /// 
+        /// Method in creating booking
         /// </summary>
         public async Task<HttpResponseMessage> CreateBooking()
         {
@@ -69,7 +69,7 @@ namespace HTTPClient.Helpers
         }
 
         /// <summary>
-        ///
+        ///Method in getting a booking
         /// </summary>
         public async Task<HttpResponseMessage> GetBooking(int bookingId)
         {
@@ -80,7 +80,7 @@ namespace HTTPClient.Helpers
         }
 
         /// <summary>
-        ///
+        ///Method in creating a booking
         /// </summary>
         public async Task<HttpResponseMessage> UpdateBooking(BookingModel bookingDetails, int bookingId)
         {
@@ -98,7 +98,7 @@ namespace HTTPClient.Helpers
         }
 
         /// <summary>
-        /// 
+        /// Method in deleting a booking
         /// </summary>
         public async Task<HttpResponseMessage> DeleteBooking(int bookingId)
         {

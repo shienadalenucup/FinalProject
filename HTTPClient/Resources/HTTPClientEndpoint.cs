@@ -11,10 +11,7 @@ namespace HTTPClient.Resources
         public const string BaseURL = "https://restful-booker.herokuapp.com/";
         public const string BookingEndpoint = "booking";
         public const string AuthEndpoint = "auth";
-
-
         public static string GetURL(string endpoint) => $"{BaseURL}{endpoint}";
-        //public static Uri GetURI(string endpoint) => new Uri(GetURL(endpoint));
         public static Uri GetURI(string endpoint) => new (GetURL(endpoint));
     }
 }

@@ -23,7 +23,6 @@ namespace HTTPClient.Tests
         public HTTPHelpers hTTPHelpers;
         public HttpClient httpClient;
 
-        //private readonly List<BookingModelId> cleanUpList = new List<BookingModelId>();
         private readonly List<BookingModelId> cleanUpList = new();
 
         [TestInitialize]

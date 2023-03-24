@@ -137,8 +137,6 @@ namespace RestSharpFinals.Tests
 
             // Assertion
             Assert.AreEqual(HttpStatusCode.NotFound, getCreatedBooking.StatusCode);
-
-
         }
     }
 }
